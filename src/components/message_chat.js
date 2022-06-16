@@ -95,9 +95,9 @@ class Message_Chat extends React.Component {
     }
 }
 
-function withRouter(props) {
+function WithRouter(props) {
     const params = useParams()
     return <Message_Chat {...props} params={params} />
 }
 
-export default withRouter
+export default WithRouter

@@ -63,9 +63,9 @@ class Register extends React.Component {
     }
 }
 
-function withRouter(props) {
+function WithRouter(props) {
     const navigate = useNavigate()
     return <Register {...props} navigate={navigate} />
 }
 
-export default withRouter
+export default WithRouter

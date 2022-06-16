@@ -59,9 +59,9 @@ class Login extends React.Component {
     }
 }
 
-function withRouter(props) {
+function WithRouter(props) {
     const navigate = useNavigate()
     return <Login {...props} navigate={navigate} />
 }
 
-export default withRouter
+export default WithRouter
