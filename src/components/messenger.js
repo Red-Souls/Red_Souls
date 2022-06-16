@@ -42,7 +42,7 @@ class Messenger extends React.Component {
                         this.state.messageRooms.map(messageRoom => (
                             <div className="card bg-dark text-white rounded my-3 text-center" key={ messageRoom.id }>
                                 <div className="card-body">
-                                    <Link to={`/message_chat/${messageRoom.id}/`} className="text-decoration-none text-success"><h3>{ messageRoom.chatname_1 } - { messageRoom.chatname_2 }</h3></Link>
+                                    <Link to={`/message_chat/${messageRoom.id}/`} className="text-decoration-none text-success"><h3>{ messageRoom.firstTalkerName } - { messageRoom.secondTalkerName }</h3></Link>
                                 </div>
                             </div>
                         ))
@@ -51,7 +51,7 @@ class Messenger extends React.Component {
                         this.state.followerMessageRooms.map(followerMessageRoom => (
                             <div className="card bg-dark text-white rounded my-3 text-center" key={ followerMessageRoom.id }>
                                 <div className="card-body">
-                                    <Link to={`/message_chat/${followerMessageRoom.id}/`} className="text-decoration-none text-success"><h3>{ followerMessageRoom.chatname_1 } - { followerMessageRoom.chatname_2 }</h3></Link>
+                                    <Link to={`/message_chat/${followerMessageRoom.id}/`} className="text-decoration-none text-success"><h3>{ followerMessageRoom.firstTalkerName } - { followerMessageRoom.secondTalkerName }</h3></Link>
                                 </div>
                             </div>
                         ))

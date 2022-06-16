@@ -232,9 +232,9 @@ class Post extends React.Component {
     }
 }
 
-function WithRouter(props) {
+function withRouter(props) {
     const params = useParams()
     return <Post {...props} params={params} />
 }
 
-export default WithRouter
+export default withRouter

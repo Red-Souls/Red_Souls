@@ -290,10 +290,10 @@ class Profile extends React.Component {
     }
 }
 
-function WithRouter(props) {
+function withRouter(props) {
     const params = useParams()
     const navigate = useNavigate()
     return <Profile {...props} params={params} navigate={navigate} />
 }
 
-export default WithRouter
+export default withRouter
