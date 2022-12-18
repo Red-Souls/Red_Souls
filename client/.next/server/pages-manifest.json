@@ -1,0 +1,7 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/red_souls_network": "pages/red_souls_network.js",
+  "/red_souls_network/[id]": "pages/red_souls_network/[id].js"
+}

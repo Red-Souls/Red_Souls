@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-red, .text-red:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.text-shadow-red {
+    text-shadow: 0 0 16px red, 0 0 16px red;
+}
+
+.darkness {
+    filter: brightness(45%);
+}
+
+.carousel-caption {
+    top: 45%;
+}
+
+.border-radius-16 {
+    border-radius: 16px;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.form-input, .form-input:focus {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.form-file, .form-file:focus {
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nav-item {
+    padding: 16px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+}
+
+.w-500 {
+    width: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-show {
+        display: none;
+    }
+}
